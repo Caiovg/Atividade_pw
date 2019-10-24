@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+                <center><img src="imagens/eteck.jpg" alt="imagem1" title="ETEC" width="70%" height="50%"></center>
+            <center><h1>Cadastra-se</h1></center>
+            <center><form action="" method="POST">
+                <br>
+                <label for="name"> Nome </label>
+                <input type="text" id="nome" name="nome" 
+                    placeholder="digite seu nome" required>
+                    <br><br>
+                
+                    <label>Email </label><input type="email" name="email">
+                    <br><br>
+                    <label for="RG">RG</label>
+                    <input type="number" id="RG" name="RG" placeholder="Digite o numero do seu RG">
+                    <label for="CPF">CPF</label>
+                    <input type="number" id="CPF" name="CPF" placeholder="Digite o numero do seu CPF">
+                    <br><br>
+                    <label for="Endereço">Endereço</label>
+                    <input type="text" id="Endereço" name="Endereço">
+                    <br><br>
+                    <label for="Nº"> Nº</label>
+                    <input type="number" id="Nº" name="Nº">
+                    <label for="Bairro">Bairro</label>
+                    <input type="text" id="Bairro" name="Bairro">
+                    <br><br>
+                    <label for="cidade">Cidade</label>
+                    <select name="Cidade">
+                            <option value="vazio">Selecione a sua Cidade</option>
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Osasco">Osasco</option>
+                            <option value="Carapicuíba">Carapicuíba</option>
+                            <option value="Jundiaí">Jundiaí</option>
+                            <option value="Barueri">Barueri</option>
+                            <option value="Campinas">Campinas</option>
+                    </select>
+                    <label for="CEP">CEP</label>
+                    <input type="number" id="CEP" name="CEP">
+                    <br><br>
+                    <form>
+                            <center>
+                                 <fieldset>
+                                     <legend>Escolha o genero:</legend>
+                                     <input type="radio" name="genero" value="Masculino"> Masculino<br>
+                                     <input type="radio" name="genero" value="Mulher"> Feminino <br>
+                                     <input type="radio" name="genero" value="Outros"> Outros <br>
+                                     
+                                     
+                                 </fieldset>
+                            </center>
+                        </form>
+                        <br><br>
+                        <form>
+                                <center>
+                                     <fieldset>
+                                         <legend>Quais são suas disciplinas favoritas:</legend>
+                                         <input type="checkbox" name="diciplina" value="diciplina" id="diciplina" checked>
+                                         <label for="pa">Programação em Algoritmos</label><br>
+                                         <input type="checkbox" name="diciplina" value="pw">Programação em Web  <br>
+                                         <input type="checkbox" name="diciplina" value="ltt">Linguagem, Trabalho e Tecnologia <br>
+                                         <input type="checkbox" name="diciplina" value="bd">Banco de Dados <br>
+                                         <input type="checkbox" name="diciplina" value="aps">Análise e projeto  de sistemas <br>
+                                         <input type="checkbox" name="diciplina" value="fi">Fundamentos da Informatica <br>
+                                         <input type="checkbox" name="diciplina" value="dd">Design Digital <br>
+                                         <input type="checkbox" name="diciplina" value="tp">Tecnicas de Programação <br>
+                                         
+                                     </fieldset>
+                                </center>
+                            </form>
+                            <br><br>
+                            <input type="submit" value="enviar"><br><br>
+                            <input type="reset" name="limpar" value="limpar"><br><br>
+                            <a href="index.html"> <img src="imagens/voltar.jpg" alt="voltar"></a>
+
+                
+                </center>
+            </form>
+        </body>
+    </head>
+</html>
